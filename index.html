@@ -1,0 +1,220 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Soleilla</title>
+</head>
+<body class="bg-[#ffa6000a]">
+    <header class="w-full z-[99999] md:px-[8%] px-[2%] bg-black">
+        <div class="flex justify-between px-[4%] text-white border border-b-gray-700 border-transparent py-5 border-1">
+            <div class="flex gap-6 lg:hidden pt-1">
+                <button class="nav-open-btn flex flex-col gap-2 lg:hidden ">
+                    <span class="line duration-500 w-[36px] h-[2px]"></span>
+                    <span class="line duration-500 w-[30px] h-[1px]"></span>
+                    <span class="line duration-500 w-[36px] h-[2px] "></span>
+                </button>   
+                <div class="text-xl md:text-2xl font-bold hidden font-bold ">Soleilla</div>
+            </div>
+            <div>
+                <div class="text-2xl xl:text-3xl md:text-lg font-bold logo">Soleilla</div>
+            </div>
+            
+            <div class="hidden lg:flex gap-10 font-semibold text-gray-300">
+                <div class="duration-500 hover:text-orange-400">
+                    <a href="/index.html">HOME</a>
+                </div>
+                <div class="duration-500 hover:text-orange-400">
+                    <a href="">CANDLES</a>
+                </div>
+                <div class="duration-500 hover:text-orange-400">
+                    <a href="lotion/lotion.html">LOTION</a>
+                </div>
+                <div class="duration-500 hover:text-orange-400">
+                    <a href="">TEA</a>
+                </div>
+            </div>
+            <button class="text-lg text-gray-200 duration-500 hover:text-orange-400"> 
+                <i class="fa-solid fa-cart-shopping"></i>   
+            </button>
+        </div>
+    </header>
+    <main class=" w-full bg-black">
+        <div class="bg-black p-4 text-black relative hidden ">
+            <img class="" src="//cdn.shopify.com/s/files/1/1795/6929/products/Candle_SoyBlend_GuavaHoney_BoxCandle_1200x.jpg?v=1676910620">
+            <div class="absolute top-8 right-0 flex flex-col justify-center items-center px-3 gap-2 font-bold text-center">
+                <h3>NEW PRODUCT</h3>
+                <h1>GUAVA HONEY SCENTED CANDLE</h1>
+                <p>Experience natural, exceptional scented and hand poured quality products made for the pasionnate candle enthusiats.</p>
+                <button class=" bg-orange-500 ">See Product</button>
+            </div>
+        </div>
+
+        <div class="flex flex-col gap-10 justify-center items-center text-white py-8 2xl:py-20  px-1">
+            <h2 class="text-4xl font-bold text-gray-200 text-center">
+                Products <span class="underline decoration-orange-300">Tailored</span> To Your Needs.
+            </h2>
+            <p class="text-gray-300 text-xl text-center">Experience natural, exceptional scented and hand poured quality products made to iluminate pasionnate enthusiats routines.</p>
+            <button class="bg-orange-400  px-6 py-3 rounded-lg">SEE PRODUCTS</button>
+        </div>
+    </main>
+    <!-- relative grid grid-cols-1 gap-1 md:grid-cols-3 md:gap-3  px-[3%]  -->
+    <!-- grid grid-cols-1 gap-1 md:grid-cols-3 md:gap-3 -->
+    <!-- 2nd div -- flex flex-col items-center gap-2  -->
+    <section class="options pt-6 md:py-20 grid md:grid-cols-3 gap-2 2xl:gap-8 mx-[8%]">
+        <a href="pages/candles.html" class="relative py-10 px-[3%]  ">
+            <div class=" bg-gray-100 rounded-2xl w-full options-img">
+                <div class=" flex justify-center absolute top-0 right-0 drop-shadow-2xl px-[30%]">
+                    <img class="rounded-full drop-shadow-2xl" src="https://decorks-store-demo.myshopify.com/cdn/shop/files/instagram2.jpg?v=9917175819747850323">
+                </div>
+                <!-- //cdn.shopify.com/s/files/1/1795/6929/products/Candle_SoyBlend_GuavaHoney_BoxCandle_1200x.jpg?v=1676910620 -->
+                <div class="flex flex-col pt-[40%] pb-4 gap-3 text-center px-16 xl:px-32">
+                    <div class="text-lg text-black font-bold">
+                        <h4>CANDLES</h4>
+                    </div>
+                    <button class="flex gap-2 self-center text-gray-600">
+                        <h4>SHOP</h4>
+                        <div>
+                            <i class="fa-solid fa-chevron-right pt-1 text-xs text-orange-500 font-bold"></i>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </a>
+        <a href="pages/lotion.html"  class="relative py-10 px-[3%] ">
+            <div class="bg-gray-100 rounded-2xl options-img">
+                <div class=" flex justify-center absolute top-0 right-0 drop-shadow-2xl px-[27%]">
+                    <img class="rounded-full drop-shadow-2xl h-full" src="https://www.aveeno.com/sites/aveeno_us_2/files/styles/large/public/product-images/ave_381372021849_us_tone_texture_daily_lotion_18oz_00000-min.png">
+                </div>
+                <div class="flex flex-col pt-[40%] pb-4 gap-3 text-center px-16 xl:px-32 ">
+                    <div class="text-lg text-black font-bold">
+                        <h4>LOTION</h4>
+                    </div>
+                    <button class="flex gap-2 self-center text-gray-600">
+                        <h4>SHOP</h4>
+                        <div>
+                            <i class="fa-solid fa-chevron-right pt-1 text-xs text-orange-500 font-bold"></i>
+                        </div>
+                    </button>
+                </div>
+                
+            </div>
+        </a>
+
+        <a href="page/tea.html" class="relative py-10 px-[3%] ">
+            <div class="bg-gray-100  rounded-2xl options-img">
+                <div class=" flex justify-center absolute top-0 right-0 drop-shadow-2xl px-[30%]">
+                    <img class="rounded-full drop-shadow-2xl" src="https://ooty-theme.myshopify.com/cdn/shop/products/p2.jpg?v=1596795846">
+                </div>
+                <div class="flex flex-col pt-[40%] pb-4 gap-3 text-center px-16 xl:px-32">
+                    <div class="text-lg text-black font-bold">
+                        <h4>TEA</h4>
+                    </div>
+                    <button class="flex gap-2 self-center text-gray-600">
+                        <h4>SHOP</h4>
+                        <div>
+                            <i class="fa-solid fa-chevron-right pt-1 text-xs text-orange-500 font-bold"></i>
+                        </div>
+                    </button>
+                </div>
+                
+            </div>
+        </a>
+    </section>
+
+    <div class="flex flex-col gap-6 ">
+        <section class="bg-[#c27d2285] grid md:grid-cols-2 mx-[5%] rounded-lg px-[5%] md:mx-[5%] py-3 gap-4">
+            <div class="rounded-full border border-orange-200 outline outline-offset-4 outline-orange-200 mt-4 drop-shadow-2xl">
+                <img class="mx-auto px-[10%]" src="https://www.aveeno.com/sites/aveeno_us_2/files/styles/large/public/product-images/ave_381372021856_us_tone_texture_overnight_cream_8oz_00345-min.png" alt="" srcset="">
+            </div>
+            <div class="flex flex-col justify-center items-center gap-6 md:px-[5%] text-center md:text-left ">
+                <h2 class="text-2xl lg:text-4xl text-white font-bold">
+                    Tone + Texture Night Cream
+                </h2>
+                <div class="text-gray-100 ">
+                    Upgrade your lotion that gently soften & smoothes skin while nourished all night long.
+                    
+                </div>
+                <button class="bg-black text-white p-3">SEE PRODUCT</button>  
+            </div>
+        </section>
+        <!-- bg-[#d6cec7] -->
+        <section class="section-btn bg-[#d6cec7] grid grid-cols-2 mx-[5%] rounded-lg px-[5%] md:mx-[5%] gap-4 ">
+            <div class="flex flex-col justify-center items-center gap-6 md:px-[5%] text-center md:text-left ">
+                <h2 class=" text-xl lg:text-3xl text-black font-bold">
+                    PREMIUM TEA
+                </h2>
+                <button class="bg-transparent border border-black text-black md:p-3 md:text-lg px-2 py-1">SEE PRODUCT</button>  
+            </div>
+            <div class="">
+                <img class="mx-auto rounded  md:w-[50%]" src="https://ooty-theme.myshopify.com/cdn/shop/products/p3.jpg?v=1596796082" alt="" srcset="">
+            </div>
+        </section>
+        <section class="section-btn grid md:grid-cols-2 mx-[5%] rounded-lg  md:mx-[5%] gap-2 py-2">
+            <div class="rounded-lg">
+                <img class="mx-auto rounded " src="https://htmldemo.net/lumin/lumin/assets/images/banner/banner-2.jpg" alt="" srcset="">
+            </div>
+            <div class="flex flex-col justify-center items-center gap-6 md:px-[5%] text-center md:text-left bg-gray-100 rounded py-2 md:py-0">
+                <h2 class=" text-xl lg:text-3xl text-black font-bold">
+                    SCENTED CANDLE
+                </h2>
+                <button class="bg-transparent border border-black text-black md:p-3 md:text-lg px-2 py-1">SEE PRODUCT</button>  
+            </div>
+        </section>
+    </div>
+    <div class="grid md:grid-cols-2 px-[3%] gap-4 py-16 md:py-32">
+        <div>
+            <img class="mx-auto rounded" src="https://ooty-theme.myshopify.com/cdn/shop/files/video-sec-bg_1.jpg?v=1620132835" alt="" srcset="">
+        </div>
+        <div class="flex flex-col gap-3 justify-center items-center">
+            <h3 class=" text-xl lg:text-3xl text-black font-bold">
+                The <span class="underline underline-offset-8 decoration-orange-300">Healthy</span> lifestyle you always wanted.
+            </h3>
+            <div>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Alias rem ipsum repellendus quaerat at et vero nostrum, optio itaque impedit iusto laudantium nobis voluptas?
+                Laudantium cupiditate laboriosam commodi nesciunt reprehenderit.
+            </div>
+        </div>
+        
+        
+    </div>
+    <footer class="grid md:grid-cols-2 gap-3 bg-black text-center px-[4%] py-6" >
+        <div class="flex flex-col gap-2 text-gray-400">
+            <h2 class="text-white text-2xl font-bold">Soleilla</h2>
+            <h3 class="text-xs md:text-sm text-left">Experience natural, exceptional scented and hand poured/picked quality products made for the pasionnate enthusiats.
+                Made with only the finest naturally non- toxic and 100% certified organic materials from our own farms.
+                Our mission is to be your most respected source for organic candle, lotion and tea at affordable prices — while maintaining environmentally conscious,
+                ethical, and sustainable business practices — to help safeguard your health and protect our planet.
+            </h3>
+            <div class="text-xs md:text-sm">
+                Copyright 2023. All Rights Reserved
+            </div>
+        </div>
+        <div class="flex flex-col md:gap-10 gap-3 ">
+            <div class="flex justify-center gap-10 font-semibold text-gray-300 items-center">
+                <div class="duration-500 hover:text-orange-400">
+                    <a href="/">HOME</a>
+                </div>
+                <div class="duration-500 hover:text-orange-400">
+                    <a href="pages/candles.html">CANDLES</a>
+                </div>
+                <div class="duration-500 hover:text-orange-400">
+                    <a href="lotion/lotion.html">LOTION</a>
+                </div>
+                <div class="duration-500 hover:text-orange-400">
+                    <a href="pages/tea.html">TEA</a>
+                </div>
+            </div>
+            <div class="flex flex-row gap-3 text-white mx-auto items-center text-lg">
+                <i class="fa-brands fa-facebook "></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+        </div>
+    </footer>
+    <Script src=""></Script>
+</body>

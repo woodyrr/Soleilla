@@ -1,0 +1,150 @@
+[
+  
+    
+    {
+        "item":1,
+        "name":"BULGARIAN LAVENDER",
+        "img":"//cdn.shopify.com/s/files/1/1795/6929/products/Candle_SoyBlend_Lavender_BoxCandle_1_d09735ce-ab2b-4279-980f-b480f03a94ad_1200x.jpg?v=1663924385",
+        "price":28.99
+    },
+    {
+        "item":2,
+        "name":"EUCALYPTUS MINT",
+        "img":"//cdn.shopify.com/s/files/1/1795/6929/products/Candle_SoyBlend_EucalyptusMint_BoxCandle_73f2274a-bac3-48e9-9a08-c8d0cd2e0077_1200x.jpg?v=1663923137",
+        "price":28.99
+    },
+    {
+        "item":3,
+        "name":"GRAPEFRUIT JASMINE",
+        "img":" //cdn.shopify.com/s/files/1/1795/6929/products/Candle_SoyBlend_EucalyptusMint_BoxCandle_73f2274a-bac3-48e9-9a08-c8d0cd2e0077_1200x.jpg?v=1663923137",
+        "price":28.99
+    },
+    {
+        "item":4,
+        "name":"SAFRONE ROSE",
+        "img":"//cdn.shopify.com/s/files/1/1795/6929/products/Candle_SoyBlend_SaffronRose_BoxCandle_2f239122-eaa3-4ee6-90f5-0c0ae7db0a0f_1200x.jpg?v=1663923144",
+        "price":28.99
+    },
+    {
+        "item":5,
+        "name":"SEA SALT DRIFTWOOD",
+        "img":"//cdn.shopify.com/s/files/1/1795/6929/products/Candle_SoyBlend_SeaSaltDriftwood_BoxCandle_d3e77593-7958-4417-9f23-a06d37ebf71c_1200x.jpg?v=1663923904",
+        "price":28.99
+    },
+    {
+        "item":6,
+        "name":"SANTAL AMBER",
+        "img":"//cdn.shopify.com/s/files/1/1795/6929/products/Candle_SoyBlend_SantalAmber_BoxCandle_1_39d87046-0c6f-450d-93d4-b7481b05a48e_1200x.jpg?v=1663923168",
+        "price":28.99
+    },
+    {
+        "item":7,
+        "name":"GUAVA HONEY",
+        "img":"//cdn.shopify.com/s/files/1/1795/6929/products/Candle_SoyBlend_GuavaHoney_BoxCandle_1200x.jpg?v=1676910620",
+        "price":28.99
+    },
+    {
+        "item":8,
+        "name":"HYACINTH WATERLILY",
+        "img":"//cdn.shopify.com/s/files/1/1795/6929/files/TF_Candle_HyacinthWaterlily_CandleAndBox_1_1200x.jpg?v=1682900206",
+        "price":28.99
+    },
+    {
+        "item":9,
+        "name":"SANTAL (SANDALWOOD)",
+        "img":"https://www.diptyqueparis.com/media/catalog/product/s/a/santal_sandalwood_scented_candle_sa1_1439x1200.png?quality=100&bg-color=255,255,255&fit=bounds&height=367&width=440&canvas=440:367",
+        "price":73.99
+    },
+    {
+        "item":10,
+        "name":"BAIES (BERRIES)",
+        "img":"https://www.diptyqueparis.com/media/catalog/product/b/a/baies_berries_scented_candle_b1_1439x1200_2_.png?quality=100&bg-color=255,255,255&fit=bounds&height=367&width=440&canvas=440:367",
+        "price":73.99
+    },
+    {
+        "item":11,
+        "name":"MIMOSA - CLASSIC",
+        "img":"https://www.diptyqueparis.com/media/catalog/product/m/i/mimosa_scented_candle_mi1_1439x1200.png?quality=100&bg-color=255,255,255&fit=bounds&height=367&width=440&canvas=440:367",
+        "price":73.99
+    },
+    {
+        "item":12,
+        "name":"ROSES - CLASSIC",
+        "img":"https://www.diptyqueparis.com/media/catalog/product/r/o/roses_scented_candle_ro1_1439x1200.png?quality=100&bg-color=255,255,255&fit=bounds&height=367&width=440&canvas=440:367",
+        "price":73.99
+    },
+    {
+        "item":13,
+        "name":"FIGUIER (FIG TREE)",
+        "img":"https://www.diptyqueparis.com/media/catalog/product/f/i/figuier_fig_tree_scented_candle_fi1_1439x1200_1_1.png?quality=100&bg-color=255,255,255&fit=bounds&height=367&width=440&canvas=440:367",
+        "price":73.99
+    },
+    {
+        "item":14,
+        "name":"CITRONNELLE (LEMONGRASS)",
+        "img":"https://www.diptyqueparis.com/media/catalog/product/b/o/bougie-citronnelle-190g-2023.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=367&width=440&canvas=440:367",
+        "price":73.99
+    },
+    {
+        "item":15,
+        "name":"CYPRES (CYPRESS)",
+        "img":"https://www.diptyqueparis.com/media/catalog/product/c/y/cypres_cypress_scented_candle_cp1_1439x1200_2.png?quality=100&bg-color=255,255,255&fit=bounds&height=367&width=440&canvas=440:367",
+        "price":73.99
+    },
+    {
+        "item":16,
+        "name":"FEU DE BOIS (WOOD FIRE)",
+        "img":"https://www.diptyqueparis.com/media/catalog/product/f/e/feu_de_bois_bd_1.png?quality=100&bg-color=255,255,255&fit=bounds&height=367&width=440&canvas=440:367",
+        "price":73.99
+    },
+    {
+        "item":17,
+        "name":"TUBEREUSE (TUBEROSE)",
+        "img":"https://www.diptyqueparis.com/media/catalog/product/t/u/tubereuse_tuberose_scented_candle_b_1439x1200.png?quality=100&bg-color=255,255,255&fit=bounds&height=367&width=440&canvas=440:367",
+        "price":73.99
+    },
+    {
+        "item":18,
+        "name":"VANILLE (VANILLA)",
+        "img":"https://www.diptyqueparis.com/media/catalog/product/v/a/vanille_vanilla_scented_candle_va1_1439x1200.png?quality=100&bg-color=255,255,255&fit=bounds&height=367&width=440&canvas=440:367",
+        "price":73.99
+    },
+    {
+        "item":19,
+        "name":"JASMIN (JASMINE)",
+        "img":"https://www.diptyqueparis.com/media/catalog/product/j/a/jasmin_scented_candle_ja1_1439x1200.png?quality=100&bg-color=255,255,255&fit=bounds&height=367&width=440&canvas=440:367",
+        "price":73.99
+    },
+    {
+        "item":20,
+        "name":"AMBRE (AMBER)",
+        "img":"https://www.diptyqueparis.com/media/catalog/product/a/m/ambre_amber_scented_candle_ab_1439x1200.png?quality=100&bg-color=255,255,255&fit=bounds&height=367&width=440&canvas=440:367",
+        "price":73.99
+    },
+    {
+        "item":21,
+        "name":"MUGUET(LILY OF THE VALLEY)",
+        "img":"https://www.diptyqueparis.com/media/catalog/product/m/u/muguet_lily_of_the_valley_scented_candle_mg1_1439x1200_2.png?quality=100&bg-color=255,255,255&fit=bounds&height=367&width=440&canvas=440:367",
+        "price":73.99
+    },
+    {
+        "item":22,
+        "name":"NARGUILE - CLASSIC",
+        "img":"https://www.diptyqueparis.com/media/catalog/product/n/a/narguile.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=367&width=440&canvas=440:367",
+        "price":73.99
+    },
+    {
+        "item":23,
+        "name":"OUD - CLASSIC",
+        "img":"https://www.diptyqueparis.com/media/catalog/product/o/u/oud_scented_candle_ou1_1439x1200.png?quality=100&bg-color=255,255,255&fit=bounds&height=367&width=440&canvas=440:367",
+        "price":73.99
+    },
+    {
+        "item":12,
+        "name":"EUCALYPTUS - CLASSIC",
+        "img":"https://www.diptyqueparis.com/media/catalog/product/e/u/eucalyptus_scented_candle_eu1_1439x1200.png?quality=100&bg-color=255,255,255&fit=bounds&height=367&width=440&canvas=440:367",
+        "price":73.99
+    }
+
+
+]

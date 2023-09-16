@@ -1,0 +1,118 @@
+[
+    {
+        "item":1,
+        "name":"Tone And Texture For Sensitive Skin",
+        "img":"https://www.aveeno.com/sites/aveeno_us_2/files/styles/large/public/product-images/ave_381372021849_us_tone_texture_daily_lotion_18oz_00000-min.png",
+        "price":13.99,
+        "status":"add to bag",
+        "description":"Gently exfoliate, hydrate & smooth sensitive skin. This daily exfoliating body lotion contains 4% natural PHA,Pro-Vitamin B3 & prebiotic oat to moisturize dry skin all day long & smooth rough skin."
+    },
+    {
+        "item":2,
+        "name":"Tone + Texture Night Cream",
+        "img":"https://www.aveeno.com/sites/aveeno_us_2/files/styles/large/public/product-images/ave_381372021856_us_tone_texture_overnight_cream_8oz_00345-min.png",
+        "price":10.99,
+        "status":"add to bag",
+        "description":"Gently soften & smooth skin while nourishing all night long. This resurfacing body cream contains 6% natural PHA, Pro-Vitamin B3 & prebiotic oat to deeply nourish & visibly improve bumpy skin."
+        
+    },
+    {
+        "item":3,
+        "name":"Daily Moisturizing Body Lotion",
+        "img":"https://www.aveeno.com/sites/aveeno_us_2/files/styles/large/public/product-images/ave_381371151035_us_daily_moisturizing_lotion_20oz_00015-min.png",
+        "price":13.99,
+        "status":"add to bag",
+        "description":"Intensely nourish dry skin with prebiotic oat formula. The gentle daily lotion nourishes & helps replenish skin's natural moisture barrier & has clinically proven moisturization that lasts 24 hours."
+    },
+    {
+        "item":4,
+        "name":"Eczema Therapy Soothing Cream, Steroid Free",
+        "img":"https://www.aveeno.com/sites/aveeno_us_2/files/styles/large/public/product-images/ave_381371156658_us_eczema_therapy_daily_moisturizing_cream_12oz_00015-min.png",
+        "price":13.99,
+        "status":"add to bag",
+        "description":"From the #1 dermatologist recommended eczema moisturizer brand, relieve & soothe symptoms of eczema such as dry, itchy skin with this daily moisturizing body cream with colloidal oatmeal and ceramide."
+    },
+    
+    {
+        "item":5,
+        "name":"Restorative Skin Therapy Oat Repairing Cream",
+        "img":"https://www.aveeno.com/sites/aveeno_us_2/files/styles/large/public/product-images/ave_381371187898_us_restorative_skin_therapy_repairing_cream_12oz_00015_0.webp",
+        "price":13.99,
+        "status":"add to bag",
+        "description":"Help restore the moisture barrier to improve skin resilience with this body cream for sensitive, distressed, dry skin. This fragrance-free cream contains prebiotic oat, aloe and pro-vitamin B5."
+    },
+    {
+        "item":6,
+        "name":"Skin relief Moisturizing Lotion For Very Dry Skin",
+        "img":"https://www.aveeno.com/sites/aveeno_us_2/files/styles/large/public/product-images/ave_381371182176_us_skin_relief_moisturizing_lotion_fragrance_free_33oz_00015-min.png",
+        "price":13.99,
+        "status":"add to bag",
+        "description":"Moisturize very dry skin with this fragrance-free lotion with a triple oat & shea butter formula. The lotion provides clinically proven soothing relief for itchy, dry skin with 48-hour moisture."
+    },
+    {
+        "item":7,
+        "name":"Stress Relief Body Lotion, Lavender Scent",
+        "img":"https://www.aveeno.com/sites/aveeno_us_2/files/styles/large/public/product-images/ave_381371192915_us_stress_relief_moisturizing_lotion_2.5oz_00015-min.png",
+        "price":13.99,
+        "status":"add to bag",
+        "description":"Unwind as you moisturize your skin. This unique formula combines the calming scents of lavender to help calm and relax while providing long lasting moisture."
+    }
+    ,
+    {
+        "item":8,
+        "name":"Restorative Skin Therapy Itch Relief Balm",
+        "img":"https://www.aveeno.com/sites/aveeno_us_2/files/styles/large/public/product-images/ave_381371187881_restor_skin_therapy_balm_113g_4oz_obwb.png",
+        "price":15.99,
+        "status":"add to bag",
+        "description":"Instantly soothe and relieve itchy, dry, sensitive skin with this nourishing itch relief balm. This balm is formulated with prebiotic oat, aloe, pro-vitamin B5 and pramoxine HCl. Non-greasy and fast-absorbing, this targeted treatment is formulated without parabens, fragrance, phthalates, and steroids."
+    },
+    {
+        "item":9,
+        "name":"Skin relief Intense Moisture Hand Cream with Prebiotic Oat",
+        "img":"https://www.aveeno.com/sites/aveeno_us_2/files/styles/large/public/product-images/ave_381370036579_us_skin_relief_intense_moisture_hand_cream_3.5oz_00015-min.png",
+        "price":9.99,
+        "status":"add to bag",
+        "description":"Helps soothe & moisturize dry hands. This fragrance-free moisturizing hand cream that lasts through hand washing & is clinically proven to soothe very dry skin with 24-hour moisture."
+    },
+    {
+        "item":10,
+        "name":"Creamy Oil Body Moisterizer for Dry Skin",
+        "img":"https://www.aveeno.com/sites/aveeno_us_2/files/styles/large/public/product-images/ave_381370039211_us_creamy_mstr_oil_scented_con_fragrancia_12oz_00015-min.png",
+        "price":13.99,
+        "status":"add to bag",
+        "description":"Nourish dry skin with 24 hours of moisture. This lightly scented, non-greasy creamy oil body moisturizer formulated with oat & almond oil nourishes dry skin & leaves it feeling silky smooth & soft."
+    },
+    {
+        "item":11,
+        "name":"Skin Relief Overnight Cream",
+        "img":"https://www.aveeno.com/sites/aveeno_us_2/files/styles/large/public/product-images/ave_381370011378_00000.png",
+        "price":13.99,
+        "status":"add to bag",
+        "description":"Treat your skin to a new nightly ritual. Made with Triple Oat Complex and Natural Shea butter, this overnight body cream alleviates itchy, extra-dry skin, while dimethicone skin protectant defends against the winter elements, restoring moisture to chafed, chapped or cracked skin. Simply go to sleep and wake up to soothing relief."
+    },
+    {
+        "item":12,
+        "name":"Anti-Itch Consentrated Lotion",
+        "img":"https://www.aveeno.com/sites/aveeno_us_2/files/styles/large/public/product-images/ave_381370036906_00000.png",
+        "price":15.99,
+        "status":"add to bag",
+        "description":"When the itch is intense, this soothing body lotion is your remedy. Formulated with proven anti-itch agents including calamine and triple oat complex, it provides fast-acting relief from poison ivy, oak, sumac, chicken pox, insect bites and more. Just apply the anti-itch lotion to irritated skin and rest assured knowing that relief is on the way."
+    },
+    {
+        "item":13,
+        "name":"Facial Cleanser Refill",
+        "img":"https://www.aveeno.com/sites/aveeno_us_2/files/styles/jjbos_adaptive_images_generic-tablet/public/product-images/ave_381372021160_us_dm_facial_cleanser_soothing_oat_refill_pouch_16oz_00015-min.png",
+        "price":18.99,
+        "status":"add to bag",
+        "description":"Cleanse away dirt, oil, & impurities with this daily facial cleanser. Formulated with soothing oat, the moisturizing face wash leaves skin feeling hydrated."
+    },
+    {
+        "item":14,
+        "name":"Nourishing Oat Facial Cleanser Refill",
+        "img":"https://www.aveeno.com/sites/aveeno_us_2/files/styles/jjbos_adaptive_images_generic-tablet/public/product-images/ave_381372021153_us_calm_restr_nrshg_cleanser_16oz_00345-min.png",
+        "price":18.99,
+        "status":"add to bag",
+        "description":"Gently cleanse and hydrate skin with this gentle gel facial cleanser. The face wash for sensitive skin is hypoallergenic, non-comedogenic and contains nourishing oat and calming feverfew."
+    }
+    
+]
