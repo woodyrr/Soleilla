@@ -17,3 +17,28 @@ background-color: white;
 .yo{
     color: #ffa6000a;
 } */
+
+.line{
+    background-color: white;
+    }
+    
+.logo{
+    font-family: 'Nanum Myeongjo', serif;
+}
+.yo{
+    color: #ffa6000a;
+}
+    
+.options-img:hover{
+    transition: 1.8s;
+    background: rgb(209 213 219);
+}
+.options-img{
+    transition: 0.8s;
+}
+    
+.section-btn button:hover{
+    transition: 0.8s;
+    background: #000;
+    color: #fff;
+}
