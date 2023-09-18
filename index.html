@@ -9,8 +9,8 @@
     <title>Soleilla</title>
 </head>
 <body class="bg-[#ffa6000a] ">
-    <header class="w-full z-[99999] md:px-[8%] px-[2%] bg-black">
-        <div class="flex justify-between px-[4%] text-white border border-b-gray-700 border-transparent py-5 border-1">
+    <header class="w-full z-[99999] flex-row items-center md:px-[8%] px-[2%] bg-black sticky top-0">
+        <div class="flex justify-between items-center px-[4%] text-white border border-b-gray-700 border-transparent py-5 border-1">
             <div class="flex gap-6 lg:hidden pt-1">
                 <button class="nav-open-btn flex flex-col gap-2 lg:hidden ">
                     <span class="line duration-500 w-[36px] h-[2px]"></span>
@@ -23,7 +23,7 @@
                 <div class="text-2xl xl:text-3xl md:text-lg font-bold logo">Soleilla</div>
             </div>
             
-            <div class="hidden lg:flex gap-10 font-semibold text-gray-300">
+            <div class="hidden lg:flex gap-10 font-semibold text-gray-300 2xl:text-lg">
                 <div class="duration-500 hover:text-orange-400">
                     <a href="/index.html">HOME</a>
                 </div>
@@ -37,22 +37,17 @@
                     <a href="">TEA</a>
                 </div>
             </div>
-            <button class="text-lg text-gray-200 duration-500 hover:text-orange-400"> 
-                <i class="fa-solid fa-cart-shopping"></i>   
-            </button>
-        </div>
-    </header>
-    <main class=" w-full bg-black">
-        <div class="bg-black p-4 text-black relative hidden ">
-            <img class="" src="//cdn.shopify.com/s/files/1/1795/6929/products/Candle_SoyBlend_GuavaHoney_BoxCandle_1200x.jpg?v=1676910620">
-            <div class="absolute top-8 right-0 flex flex-col justify-center items-center px-3 gap-2 font-bold text-center">
-                <h3>NEW PRODUCT</h3>
-                <h1>GUAVA HONEY SCENTED CANDLE</h1>
-                <p>Experience natural, exceptional scented and hand poured quality products made for the pasionnate candle enthusiats.</p>
-                <button class=" bg-orange-500 ">See Product</button>
+            <div class="cart-btn text-lg relative cursor-pointer text-gray-200">
+                <span class="nav-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>   
+                </span>
+                <div class="cart-items absolute top-[-12px] right-[-9px] px-[4px]  bg-orange-400  rounded-lg text-sm">0</div>
+                
             </div>
         </div>
-
+    </header>
+    <!-- End of navabar -->
+    <main class=" w-full bg-black">
         <div class="flex flex-col gap-10 justify-center items-center text-white py-8 2xl:py-20  px-1">
             <h2 class="text-4xl font-bold text-gray-200 text-center">
                 Products <span class="underline decoration-orange-300">Tailored</span> To Your Needs.
