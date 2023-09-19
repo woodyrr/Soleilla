@@ -1,5 +1,4 @@
-// calling the location.json file to append into html page start
-fetch('lotion.json')
+fetch('candles.json')
 .then(function(response){
     return response.json();
 })
@@ -27,7 +26,6 @@ fetch('lotion.json')
 .catch(function(err){
     console.log(err);
 });
-// calling the location.json file to append into html page start
 
 let body = document.querySelector('.body')
 let overlay1 = document.querySelector('.overlay-1')

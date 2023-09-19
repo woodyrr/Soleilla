@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Soleilla</title>
 </head>
-<body class="bg-[#ffa6000a] ">
+<body class="bg-[#ffa6000a] body">
     <header class="w-full z-[99999] flex-row items-center md:px-[8%] px-[2%] bg-black sticky top-0">
         <div class="flex justify-between items-center px-[4%] text-white border border-b-gray-700 border-transparent py-5 border-1">
             <div class="flex gap-6 lg:hidden pt-1">
@@ -47,6 +47,40 @@
         </div>
     </header>
     <!-- End of navabar -->
+
+    <!-- overlay-1 -->
+    
+    <div class="overlay-1 duration-400 bg-black fixed h-[95%]  md:px-[8%] px-[8%] py-[16%]">
+        <div class="flex flex-col gap-4 text-2xl pt-[10%] justify-left text-orange-100 px-[2%]">
+            <div class="duration-500 hover:text-orange-400">
+                <a href="../">HOME</a>
+            </div>
+            <div class="duration-500 hover:text-orange-400">
+                <a href="candle/candle.html">CANDLES</a>
+            </div>
+            <div class="duration-500 hover:text-orange-400">
+                <a href="lotion/lotion.html">LOTION</a>
+            </div>
+            <div class="duration-500 hover:text-orange-400">
+                <a href="">TEA</a>
+            </div>
+            
+        </div>
+
+        <div class="absolute bottom-12 right-0 flex flex-col gap-3 text-orange-100 px-[6%]">
+            <div class="flex flex-row gap-3 text-orange-100 text-lg">
+                <i class="fa-brands fa-facebook "></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="text-xs md:text-sm">
+                Copyright 2023. All Rights Reserved
+            </div>
+        </div>
+
+        
+    </div>
+    <!-- overlay-1 end -->
     <main class=" w-full bg-black">
         <div class="flex flex-col gap-10 justify-center items-center text-white py-8 2xl:py-20  px-1">
             <h2 class="text-4xl font-bold text-gray-200 text-center">
@@ -60,7 +94,7 @@
     <!-- grid grid-cols-1 gap-1 md:grid-cols-3 md:gap-3 -->
     <!-- 2nd div -- flex flex-col items-center gap-2  -->
     <section class="options pt-6 md:py-20 grid md:grid-cols-3 gap-2 2xl:gap-8 mx-[8%]">
-        <a href="/candles.html" class="relative py-10 px-[3%]  ">
+        <a href="candle/candle.html" class="relative py-10 px-[3%]  ">
             <div class=" bg-gray-100 rounded-2xl w-full options-img">
                 <div class=" flex justify-center absolute top-0 right-0 drop-shadow-2xl px-[30%]">
                     <img class="rounded-full drop-shadow-2xl" src="https://decorks-store-demo.myshopify.com/cdn/shop/files/instagram2.jpg?v=9917175819747850323">
@@ -195,7 +229,7 @@
                     <a href="./">HOME</a>
                 </div>
                 <div class="duration-500 hover:text-orange-400">
-                    <a href="/candles.html">CANDLES</a>
+                    <a href="candle/candle.html">CANDLES</a>
                 </div>
                 <div class="duration-500 hover:text-orange-400">
                     <a href="lotion/lotion.html">LOTION</a>
@@ -211,5 +245,5 @@
             </div>
         </div>
     </footer>
-    <Script src=""></Script>
+    <Script src="css/index.js"></Script>
 </body>

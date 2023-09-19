@@ -2,13 +2,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="./lotion.css">
+    <link rel="stylesheet" href="./candle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Soleilla</title>
 </head>
-<body class="bg-[#ffa6000a] body">
+<body class="bg-[#ffa6000a]">
     <header class="w-full z-[99999] flex-row items-center md:px-[8%] px-[2%] bg-black sticky top-0">
         <div class="flex justify-between items-center px-[4%] text-white border border-b-gray-700 border-transparent py-5 border-1">
             <div class="flex gap-6 lg:hidden pt-1">
@@ -17,10 +17,10 @@
                     <span class="line duration-500 w-[30px] h-[1px]"></span>
                     <span class="line duration-500 w-[36px] h-[2px] "></span>
                 </button>   
-                <a href="../" class="soleilla text-xl md:text-2xl font-bold hidden font-bold duration-300">Soleilla</a>
+                <a href="../" class="text-xl md:text-2xl font-bold hidden font-bold ">Soleilla</a>
             </div>
             <div>
-                <a href="../" class="soleilla text-2xl xl:text-3xl md:text-lg font-bold logo duration-300">Soleilla</a>
+                <a href="../" class="text-2xl xl:text-3xl md:text-lg font-bold logo">Soleilla</a>
             </div>
             
             <div class="hidden lg:flex gap-10 font-semibold text-gray-300 2xl:text-lg">
@@ -28,16 +28,16 @@
                     <a href="../">HOME</a>
                 </div>
                 <div class="duration-500 hover:text-orange-400">
-                    <a href="">CANDLES</a>
+                    <a href="../candle/candle.html">CANDLES</a>
                 </div>
                 <div class="duration-500 hover:text-orange-400">
-                    <a href="lotion/lotion.html">LOTION</a>
+                    <a href="../lotion/lotion.html">LOTION</a>
                 </div>
                 <div class="duration-500 hover:text-orange-400">
                     <a href="">TEA</a>
                 </div>
             </div>
-            <div class="cart-btn text-lg relative text-gray-200 ">
+            <div class="cart-btn text-lg relative cursor-pointer text-gray-200 ">
                 <span class="nav-icon">
                     <i class="fa-solid fa-cart-shopping"></i>   
                 </span>
@@ -57,7 +57,7 @@
                 <a href="../candle/candle.html">CANDLES</a>
             </div>
             <div class="duration-500 hover:text-orange-400">
-                <a href="lotion/lotion.html">LOTION</a>
+                <a href="../lotion/lotion.html">LOTION</a>
             </div>
             <div class="duration-500 hover:text-orange-400">
                 <a href="">TEA</a>
@@ -81,19 +81,19 @@
     <!-- overlay-1 end -->
     <main class="w-full bg-black 2xl:px-[10%]">
         <div class="text-white font-bold text-3xl text-center py-16">
-            LOTION
+            CANDLE
         </div>
     </main>
     <main class="main1 2xl:px-[10%]">
         <section class="grid md:grid-cols-2 pt-10 px-[5%] gap-3">
             <div class="bg-gray-200 rounded-lg">
-                <img class="px-[20%] drop-shadow-2xl" src="https://www.aveeno.com/sites/aveeno_us_2/files/styles/jjbos_adaptive_images_generic-tablet/public/product-images/ave_381372021160_us_dm_facial_cleanser_soothing_oat_refill_pouch_16oz_00015-min.png" alt="" srcset="">
+                <img class="px-[20%] drop-shadow-2xl rounded-full" src="//cdn.shopify.com/s/files/1/1795/6929/files/TF_Candle_HyacinthWaterlily_CandleAndBox_1_1200x.jpg?v=1682900206" alt="" srcset="">
             </div>
             <div class="flex flex-col justify-center items-center gap-3 px-4">
                 <div class="text-orange-300">NEW PRODUCT</div>
-                <h2 class="text-black font-bold text-2xl">Nourishing Oat Facial Cleanser Refill</h2>
+                <h2 class="text-black font-bold text-2xl">HYACINTH WATERLILY</h2>
                 <div class="text-gray-400">
-                    Gently cleanse and hydrate skin with this gentle gel facial cleanser. The face wash for sensitive skin is hypoallergenic, non-comedogenic and contains nourishing oat and calming feverfew.
+                    A delicate blend of hyacinth, lemon, dewy grass, jasmine, waterlily, geranium, fern, and clover. Perfect for creating a calming and fresh ambiance in any room.
                 </div>
                 <button class="bg-black text-white p-3">SEE PRODUCT</button>  
             </div>
@@ -109,15 +109,15 @@
     <!-- calling the location.json file to append into html page end -->
 
     <section class="pt-6 md:py-20 grid md:grid-cols-2 gap-2 2xl:gap-8 mx-[14%]">
-        <a href="../candle/candle.html" class="relative py-10 px-[3%]  ">
+        <a href="../lotion/lotion.html" class="relative py-10 px-[3%]  ">
             <div class=" bg-gray-100 rounded-2xl w-full options-img">
                 <div class="flex justify-center absolute top-0 right-0 drop-shadow-2xl px-[30%]">
-                    <img class="rounded-full drop-shadow-2xl" src="https://decorks-store-demo.myshopify.com/cdn/shop/files/instagram2.jpg?v=9917175819747850323">
+                    <img class="rounded-full drop-shadow-2xl" src="https://www.aveeno.com/sites/aveeno_us_2/files/styles/large/public/product-images/ave_381372021849_us_tone_texture_daily_lotion_18oz_00000-min.png">
                 </div>
                 <!-- //cdn.shopify.com/s/files/1/1795/6929/products/Candle_SoyBlend_GuavaHoney_BoxCandle_1200x.jpg?v=1676910620 -->
                 <div class="flex flex-col pt-[40%] pb-4 gap-3 text-center px-16 xl:px-32">
                     <div class="text-lg text-black font-bold">
-                        <h4>CANDLES</h4>
+                        <h4>LOTION</h4>
                     </div>
                     <button class="flex gap-2 self-center text-gray-600">
                         <h4>SHOP</h4>
@@ -130,7 +130,7 @@
         </a>
         
 
-        <a href="tea/tea.html" class="relative py-10 px-[3%] ">
+        <a href="../tea/tea.html" class="relative py-10 px-[3%] ">
             <div class="bg-gray-100  rounded-2xl options-img">
                 <div class="flex justify-center absolute top-0 right-0 drop-shadow-2xl px-[30%]">
                     <img class="rounded-full drop-shadow-2xl" src="https://ooty-theme.myshopify.com/cdn/shop/products/p2.jpg?v=1596795846">
@@ -206,7 +206,7 @@
                     <a href="../candle/candle.html">CANDLES</a>
                 </div>
                 <div class="duration-500 hover:text-orange-400">
-                    <a href="./lotion.html">LOTION</a>
+                    <a href="../lotion/lotion.html">LOTION</a>
                 </div>
                 <div class="duration-500 hover:text-orange-400">
                     <a href="/tea.html">TEA</a>
@@ -222,5 +222,5 @@
 
 
 
-    <script src="lotion.js"></script>
+    <script src="candle.js"></script>
 </body>

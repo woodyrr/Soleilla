@@ -1,5 +1,4 @@
-/* not working start */
-/* .nav-open-btn.active .line:nth-child(1) {
+.nav-open-btn.active .line:nth-child(1) {
     transform: translateY(10px) rotate(45deg);
 }   
 .nav-open-btn.active .line:nth-child(3) {
@@ -7,7 +6,7 @@ transform: translateY(-10px) rotate(-45deg);
 }
 .nav-open-btn.active .line:nth-child(2) {
 opacity: 0;
-} */
+}
 .line{
     background-color: white;
 }
@@ -18,7 +17,28 @@ opacity: 0;
 .yo{
     color: #ffa6000a;
 }
-/* not working end */
+/* transform: translateX(100%);
+transform: translateX(0%); */
+/*overlay*/
+.overlay-1{
+    opacity: 0;
+    transition: visibility 1s, opacity 0.4s ease-out ;
+    visibility: hidden;
+    /* display: none; */
+    width: 100%;
+    z-index: 0;
+}
+/* transition: visibility 0s, opacity 0.4s ease-out ;
+    visibility: hidden; */
+.overlay-1.active{
+    /* display: block; */
+    visibility: visible;
+    opacity: 1;  
+    transition: opacity 0.4s ease-out;
+    z-index: 9999;
+}
+/*overlay end*/
+
 #main-section button{
     background-color: #c27d2285;
     color: black;
@@ -68,4 +88,18 @@ opacity: 0;
     transition: 0.8s;
     background: #000;
     color: #fff;
+}
+
+.cart-btn{
+    transition: display 0.9s;
+    cursor: pointer;
+    
+}
+.cart-btn.active{
+    transition:display 0.9s;
+    display:none;
+
+}
+.soleilla{
+    transition:all 0.9s;
 }
