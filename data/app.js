@@ -98,45 +98,7 @@ cartbtn1.innerHTML = `
         </div>
     </div>
 `;
-//test1
-if ( document.URL.includes("Soleilla") ) {
-    cartbtn1.innerHTML = `
-<div class="flex justify-between items-center px-[4%] text-white border border-b-gray-700 border-transparent py-5 border-1">
-        <div class="flex gap-6 lg:hidden pt-1">
-            <button class="nav-open-btn flex flex-col gap-2 lg:hidden ">
-                <span class="line duration-500 w-[36px] h-[2px]"></span>
-                <span class="line duration-500 w-[30px] h-[1px]"></span>
-                <span class="line duration-500 w-[36px] h-[2px] "></span>
-            </button>   
-            <a href="../" class="soleilla text-xl md:text-2xl font-bold hidden font-bold duration-300">Soleilla</a>
-        </div>
-        <div>
-            <a href="../" class="soleilla text-2xl xl:text-3xl md:text-lg font-bold logo duration-300">Soleilla</a>
-        </div>
-        
-        <div class="hidden lg:flex gap-10 font-semibold text-gray-300 2xl:text-lg">
-            <div class="duration-500 hover:text-orange-400">
-                <a href="./">HOME</a>
-            </div>
-            <div class="duration-500 hover:text-orange-400">
-                <a href="./candle/candle.html">CANDLES</a>
-            </div>
-            <div class="duration-500 hover:text-orange-400">
-                <a href="./lotion/lotion.html">LOTION</a>
-            </div>
-            <div class="duration-500 hover:text-orange-400">
-                <a href="./tea/tea.html">TEA</a>
-            </div>
-        </div>
-        <div class="cart-btn text-lg relative text-gray-200 ">
-            <span class="nav-icon">
-                <i class="fa-solid fa-cart-shopping"></i>   
-            </span>
-        </div>
-    </div>
-`;    
-}
-//test1 end
+
 let cartclose = document.querySelector(".cart-close")
 let cartOverlay = document.querySelector(".cart-overlay")
 let body = document.querySelector('.body')
