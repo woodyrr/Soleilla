@@ -214,7 +214,7 @@ const lotion = [
         "id":20,
         "name":"Tone + Texture Night Cream",
         "img":"https://www.aveeno.com/sites/aveeno_us_2/files/styles/large/public/product-images/ave_381372021856_us_tone_texture_overnight_cream_8oz_00345-min.png",
-        "price":"$10.99",
+        "price":"$ 10.99",
         "value":10.99,
         "status":"add to cart",
         "description":"Gently soften & smooth skin while nourishing all night long. This resurfacing body cream contains 6% natural PHA, Pro-Vitamin B3 & prebiotic oat to deeply nourish & visibly improve bumpy skin.",
@@ -345,3 +345,88 @@ const lotion = [
     }
     
 ];
+
+//tea
+const tea = [
+    {
+        "id":32,
+        "name":"Black Tea",
+        "img":"https://ooty-theme.myshopify.com/cdn/shop/products/p1_380x446.jpg?v=1596795533",
+        "price": "$ 12.99",
+        "value":12.99,
+        "status":"add to cart",
+        "description":"Rhoncus dolor purus non enim praesent elementum facilisis. Libero enim sed faucibus turpis. At erat pellentesque adipiscing commodo. Cursus sit amet dictum sit. Quisque sagittis purus sit amet volutpat consequat.",
+        "units":1
+    },
+    {
+        "id":33,
+        "name":"Chai Tea",
+        "img":"https://ooty-theme.myshopify.com/cdn/shop/products/p7.jpg?v=1620805981",
+        "price": "$ 12.99",
+        "value":12.99,
+        "status":"add to cart",
+        "description":"Rhoncus dolor purus non enim praesent elementum facilisis. Libero enim sed faucibus turpis. At erat pellentesque adipiscing commodo. Cursus sit amet dictum sit. Quisque sagittis purus sit amet volutpat consequat.",
+        "units":1
+    },
+    {
+        "id":34,
+        "name":"CLassic Black Tea",
+        "img":"https://ooty-theme.myshopify.com/cdn/shop/products/p7.jpg?v=1620805981",
+        "price": "$ 12.99",
+        "value":12.99,
+        "status":"add to cart",
+        "description":"Rhoncus dolor purus non enim praesent elementum facilisis. Libero enim sed faucibus turpis. At erat pellentesque adipiscing commodo. Cursus sit amet dictum sit. Quisque sagittis purus sit amet volutpat consequat.",
+        "units":1
+    },
+    {
+        "id":35,
+        "name":"Green Tea",
+        "img":"https://ooty-theme.myshopify.com/cdn/shop/products/p2.jpg?v=1596795846",
+        "price": "$ 12.99",
+        "value":12.99,
+        "status":"add to cart",
+        "description":"Rhoncus dolor purus non enim praesent elementum facilisis. Libero enim sed faucibus turpis. At erat pellentesque adipiscing commodo. Cursus sit amet dictum sit. Quisque sagittis purus sit amet volutpat consequat.",
+        "units":1
+    },
+    {
+        "id":36,
+        "name":"Oolong Tea",
+        "img":"https://ooty-theme.myshopify.com/cdn/shop/products/p5.jpg?v=1596797058",
+        "price": "$ 12.99",
+        "value":12.99,
+        "status":"add to cart",
+        "description":"Rhoncus dolor purus non enim praesent elementum facilisis. Libero enim sed faucibus turpis. At erat pellentesque adipiscing commodo. Cursus sit amet dictum sit. Quisque sagittis purus sit amet volutpat consequat.",
+        "units":1
+    },
+    {
+        "id":37,
+        "name":"Premium Tea",
+        "img":"https://ooty-theme.myshopify.com/cdn/shop/products/p3.jpg?v=1596796082",
+        "price": "$ 12.99",
+        "value":12.99,
+        "status":"add to cart",
+        "description":"Rhoncus dolor purus non enim praesent elementum facilisis. Libero enim sed faucibus turpis. At erat pellentesque adipiscing commodo. Cursus sit amet dictum sit. Quisque sagittis purus sit amet volutpat consequat.",
+        "units":1
+    },
+    {
+        "id":38,
+        "name":"Royal Green Tea",
+        "img":"https://ooty-theme.myshopify.com/cdn/shop/products/p6.jpg?v=1596797282",
+        "price": "$ 12.99",
+        "value":12.99,
+        "status":"add to cart",
+        "description":"Rhoncus dolor purus non enim praesent elementum facilisis. Libero enim sed faucibus turpis. At erat pellentesque adipiscing commodo. Cursus sit amet dictum sit. Quisque sagittis purus sit amet volutpat consequat.",
+        "units":1
+    },
+    {
+        "id":39,
+        "name":"White Tea",
+        "img":"https://ooty-theme.myshopify.com/cdn/shop/products/p8.jpg?v=1596797500",
+        "price": "$ 12.99",
+        "value":12.99,
+        "status":"add to cart",
+        "description":"Rhoncus dolor purus non enim praesent elementum facilisis. Libero enim sed faucibus turpis. At erat pellentesque adipiscing commodo. Cursus sit amet dictum sit. Quisque sagittis purus sit amet volutpat consequat.",
+        "units":1
+    }
+
+]

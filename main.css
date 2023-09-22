@@ -67,7 +67,7 @@ opacity: 0;
     transition: 0.8s;
 }
 
-.section-btn button:hover{
+.section-btn a:hover{
     transition: 0.8s;
     background: #000;
     color: #fff;
@@ -143,3 +143,15 @@ opacity: 0;
     border-radius: 60%;
     
 }
+/* .body{
+    opacity: 0;
+    transition: visibility 1s, opacity 2.9s ease-out ;
+    visibility: hidden;
+    z-index: 0;
+}
+.body.active{
+    visibility: visible;
+    opacity: 1;  
+    transition: visibility 1s, opacity 2.9s ease-out;
+    z-index: 9999;
+} */

@@ -13,43 +13,38 @@
         
     </header>
     <!-- End of navabar -->
-
     <!-- cart items rendering -->
-    <div class="cart-overlay z-[9999] h-full duration-400 bg-white fixed flex flex-col gap-6 py-[3%] w-full overflow-auto items-center pb-36">
-        <div class="cart w-full lg:w-[40%] bg-white absolute h-full  gap-2 top-0 right-0 text-black text-center">
-            <h2 class="text-center p-5 text-xl font-bold">Your Cart</h2>
+    <div class="cart-overlay z-[9999] h-full duration-400 bg-black fixed flex flex-col gap-3 py-[3%] w-full lg:w-[50%] overflow-auto items-center pb-36 right-0">
+        <div class="cart w-full bg-black absolute h-full  gap-2 top-0 right-0 text-white text-center">
+            <h2 class="text-center p-5 text-xl xl:text-2xl font-bold">Your Cart</h2>
         </div>
         <div class="cartItov flex flex-col gap-1 pt-10">
             
         </div>
-        <div class="subtotal flex gap-2 bottom-0 text-black fixed text-center flex justify-center items-center py-3 bg-orange-400 w-full z-[9999] ">
+        <div class="subtotal flex gap-2 bottom-0 text-black fixed text-center flex justify-center items-center py-3 bg-orange-400 w-full z-[9999] lg:w-[50%]  drop-shadow-2xl">
 
-            <div class="text-2xl font-bold">empty</div>
+            <div class="text-2xl font-bold">0 items in cart</div>
             
         </div>
-        
     </div>
     <!-- cart items rendering -->
-
     <!-- overlay-1 -->
-    
     <div class="overlay-1 duration-400 bg-black fixed h-[95%]  md:px-[8%] px-[8%] py-[16%]">
         <div class="flex flex-col gap-4 text-2xl pt-[10%] justify-left text-orange-100 px-[2%]">
             <div class="duration-500 hover:text-orange-400">
                 <a href="../">HOME</a>
             </div>
             <div class="duration-500 hover:text-orange-400">
-                <a href="candle/candle.html">CANDLES</a>
+                <a href="./candle/candle.html">CANDLES</a>
             </div>
             <div class="duration-500 hover:text-orange-400">
-                <a href="lotion/lotion.html">LOTION</a>
+                <a href="./lotion/lotion.html">LOTION</a>
             </div>
             <div class="duration-500 hover:text-orange-400">
-                <a href="">TEA</a>
+                <a href="./tea/tea.html">TEA</a>
             </div>
             
         </div>
-
         <div class="absolute bottom-12 right-0 flex flex-col gap-3 text-orange-100 px-[6%]">
             <div class="flex flex-row gap-3 text-orange-100 text-lg">
                 <i class="fa-brands fa-facebook "></i>
@@ -60,10 +55,6 @@
                 Copyright 2023. All Rights Reserved
             </div>
         </div>
-
-        
-
-        
     </div>
     <!-- overlay-1 end -->
     <main class=" w-full bg-black">
@@ -75,16 +66,12 @@
             <button class="bg-orange-400  px-6 py-3 rounded-lg">SEE PRODUCTS</button>
         </div>
     </main>
-    <!-- relative grid grid-cols-1 gap-1 md:grid-cols-3 md:gap-3  px-[3%]  -->
-    <!-- grid grid-cols-1 gap-1 md:grid-cols-3 md:gap-3 -->
-    <!-- 2nd div -- flex flex-col items-center gap-2  -->
     <section class="options pt-6 md:py-20 grid md:grid-cols-3 gap-2 2xl:gap-8 mx-[8%]">
         <a href="candle/candle.html" class="relative py-10 px-[3%]  ">
             <div class=" bg-gray-100 rounded-2xl w-full options-img">
                 <div class=" flex justify-center absolute top-0 right-0 drop-shadow-2xl px-[30%]">
                     <img class="rounded-full drop-shadow-2xl" src="https://decorks-store-demo.myshopify.com/cdn/shop/files/instagram2.jpg?v=9917175819747850323">
                 </div>
-                <!-- //cdn.shopify.com/s/files/1/1795/6929/products/Candle_SoyBlend_GuavaHoney_BoxCandle_1200x.jpg?v=1676910620 -->
                 <div class="flex flex-col pt-[40%] pb-4 gap-3 text-center px-16 xl:px-32">
                     <div class="text-lg text-black font-bold">
                         <h4>CANDLES</h4>
@@ -117,7 +104,6 @@
                 
             </div>
         </a>
-
         <a href="/tea.html" class="relative py-10 px-[3%] ">
             <div class="bg-gray-100  rounded-2xl options-img">
                 <div class=" flex justify-center absolute top-0 right-0 drop-shadow-2xl px-[30%]">
@@ -152,16 +138,15 @@
                     Upgrade your lotion that gently soften & smoothes skin while nourished all night long.
                     
                 </div>
-                <button class="bg-black text-white p-3">SEE PRODUCT</button>  
+                <a href="./lotion/lotion.html" class="bg-black text-white border border-black text-black md:p-3 md:text-lg px-2 py-1">SEE PRODUCT</a>  
             </div>
         </section>
-        <!-- bg-[#d6cec7] -->
         <section class="section-btn bg-[#d6cec7] grid grid-cols-2 mx-[5%] rounded-lg px-[5%] md:mx-[5%] gap-4 ">
             <div class="flex flex-col justify-center items-center gap-6 md:px-[5%] text-center md:text-left ">
                 <h2 class=" text-xl lg:text-3xl text-black font-bold">
                     PREMIUM TEA
                 </h2>
-                <button class="bg-transparent border border-black text-black md:p-3 md:text-lg px-2 py-1">SEE PRODUCT</button>  
+                <a href="./tea/tea.hml" class="bg-transparent border border-black text-black md:p-3 md:text-lg px-2 py-1">SEE PRODUCT</a>  
             </div>
             <div class="">
                 <img class="mx-auto rounded  md:w-[50%]" src="https://ooty-theme.myshopify.com/cdn/shop/products/p3.jpg?v=1596796082" alt="" srcset="">
@@ -175,7 +160,7 @@
                 <h2 class=" text-xl lg:text-3xl text-black font-bold">
                     SCENTED CANDLE
                 </h2>
-                <button class="bg-transparent border border-black text-black md:p-3 md:text-lg px-2 py-1">SEE PRODUCT</button>  
+                <a href="./candle/candle.html" class="bg-transparent border border-black text-black md:p-3 md:text-lg px-2 py-1">SEE PRODUCT</a>  
             </div>
         </section>
     </div>
@@ -193,8 +178,6 @@
                 Laudantium cupiditate laboriosam commodi nesciunt reprehenderit.
             </div>
         </div>
-        
-        
     </div>
     <footer class="grid md:grid-cols-2 gap-3 bg-black text-center px-[4%] py-6" >
         <div class="flex flex-col gap-2 text-gray-400">
@@ -230,19 +213,6 @@
             </div>
         </div>
     </footer>
-    <!-- <Script>
-        let body = document.querySelector('.body')
-        let overlay1 = document.querySelector('.overlay-1')
-        let cartbtn = document.querySelector('.cart-btn')
-        let openBtn = document.querySelector('.nav-open-btn')
-        openBtn.addEventListener("click", mobileMenu);
-        function mobileMenu() {
-            openBtn.classList.toggle("active");
-            cartbtn.classList.toggle("active");
-            overlay1.classList.toggle("active");
-            body.classList.toggle("overflow-hidden");
-        }
-    </Script> -->
     <script src="./data/product.js"></script>
     <script src="./data/app.js"></script>
 </body>
